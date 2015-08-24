@@ -22,7 +22,7 @@ To build, navigate to the root directory and run:
 The built files can then be found in the `dist` directory.
 
 ##License
-See LICENSE.md for full license terms.
+See LICENSE.txt for full license terms.
 
 ##Credits
 Created and built by [David Prior](http://davidprior.media).
