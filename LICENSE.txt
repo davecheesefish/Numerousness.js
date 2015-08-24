@@ -1,0 +1,6 @@
+Numerousness.js
+---------------
+ 
+Copyright 2015 David Prior  |  http://davidprior.media
+
+This library will be released under a free license when it is more fully-formed.
