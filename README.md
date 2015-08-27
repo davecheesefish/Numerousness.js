@@ -9,8 +9,8 @@ A number formatting library for converting plain digits to fancy words.
 
 ##Usage
 Include numerousness.js or numerousness.min.js in your project:
-`<script type="text/javascript" src="numerousness.min.js></script>`
-The `Numerousness` object will then be available to your scripts.
+```<script type="text/javascript" src="numerousness.min.js></script>```
+The `Numerousness` object and its functions will then be available to your scripts.
 
 ###Plain Numbers (Numerousness.Numbers)
 ####Numerousness.Numbers.spell(num[, options])
