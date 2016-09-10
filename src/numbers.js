@@ -1,7 +1,7 @@
-define(['core', 'utils', 'languages/en-short'], function(Numerousness, Utils, lang){
+define(['core', 'utils', 'languages/en-short'], function(numerousness, utils, lang){
 	
 	// Create the namespace
-	var Numbers = {};
+	var numbers = {};
 	
 	/**
 	 * Post-processes the finished array before joining.
@@ -118,7 +118,7 @@ define(['core', 'utils', 'languages/en-short'], function(Numerousness, Utils, la
 		// Combine strings and return
 		return combine(postprocessor(outArr));
 	};
-	Numbers.spell = spell;
+	numbers.spell = spell;
 	
-	Numerousness.Numbers = Numbers;
+	numerousness.numbers = numbers;
 });

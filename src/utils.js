@@ -1,6 +1,6 @@
 define(function(){
 	
-	var Utils = {
+	var utils = {
 			/**
 			 * Checks an object for a property with the given value.
 			 */
@@ -18,5 +18,5 @@ define(function(){
 			}
 	};
 	
-	return Utils;
+	return utils;
 });

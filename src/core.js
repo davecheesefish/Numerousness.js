@@ -1,11 +1,11 @@
 define(function(){
 	
 	// The main object to build everything around
-	var Numerousness = {};
+	var numerousness = {};
 	
 	// Build information
-	Numerousness.version = '@VERSION@';
-	Numerousness.build_date = '@DATE@';
+	numerousness.version = '@VERSION@';
+	numerousness.build_date = '@DATE@';
 	
-	return Numerousness;
+	return numerousness;
 });
