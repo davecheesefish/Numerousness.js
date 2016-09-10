@@ -50,8 +50,8 @@ define(['core', 'utils', 'languages/en-short'], function(numerousness, utils, la
 		
 		var outArr = [];
 		
-		// Check for digits option
-		if (typeof options.digits !== 'undefined' && options.digits === true){
+		// Check for digits option or 0 (a special case)
+		if ((typeof options.digits !== 'undefined' && options.digits === true) || num === '0'){
 			// Digits option is true, output as separate digits
 			for (var i in num){
 				outArr.push(lang.digits[num[i]]);

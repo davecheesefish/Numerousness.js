@@ -1,6 +1,7 @@
 module('numbers');
 
 test('spell()', function(assert){
+	assert.equal(numerousness.numbers.spell(0), 'zero', 'Spell zero');
 	assert.equal(numerousness.numbers.spell(1), 'one', 'Spell a single digit number');
 	assert.equal(numerousness.numbers.spell(12), 'twelve', 'Spell a special number 11-19');
 	assert.equal(numerousness.numbers.spell(20), 'twenty', 'Spell a 2-digit number without units');
